@@ -127,14 +127,14 @@ const Footer = () => {
               <div className="footer__social-mobile">
                 <ul>
                   <li>
-                    <a href="#" className="fb">
+                    <Link href="#" className="fb">
                       <i className="fa-brands fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="tw">
+                    <Link href="#" className="tw">
                       <i className="fa-brands fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="pin">
