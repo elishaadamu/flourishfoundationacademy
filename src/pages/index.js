@@ -9,7 +9,7 @@ import HeroArea from "../../components/Home/HeroArea";
 import HomeCourses from "../../components/Home/HomeCourses";
 import ResearchArea from "../../components/Home/ResearchArea";
 import Cta from "../../components/Home/Cta";
-import LoadingScreen from '../../components/common/LoadingScreen';
+import LoadingScreen from "../../components/common/LoadingScreen";
 import Footer from "../../components/common/Footer";
 import SEO from "../../components/seo";
 
@@ -23,10 +23,10 @@ export default function Home() {
       <Features />
       <AboutArea />
       <CounterArea />
-      <HomeCourses />
-      <Campus />
+      {/* <HomeCourses /> */}
+      {/* <Campus />
       <ResearchArea />
-      <HomeBlog />
+      <HomeBlog /> */}
       <Cta />
       <Footer />
     </>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const schoolName = "Flourish Foundation Academy";
 const AboutArea = ({
   about_pt = "",
   principalImage,
@@ -8,9 +9,7 @@ const AboutArea = ({
   schoolName,
 }) => {
   return (
-    <section
-      className={`about__area pt-60 pb-100 p-relative ${about_pt}`}
-    >
+    <section className={`about__area pt-60 pb-100 p-relative ${about_pt}`}>
       <div className="container">
         <div className="row align-items-center">
           {/* Left Column - Principal's Image */}
@@ -34,16 +33,17 @@ const AboutArea = ({
             <div className="about__content pl-30 pr-25 text-lg-start text-center">
               <div className="section__title-wrapper mb-15">
                 <span className="section__title-pre">
-                  {schoolName || "IQNaut High School"}
+                  Flourish Foundation Academy
                 </span>
                 <h2 className="section__title">Principal&apos;s Message</h2>
               </div>
               <p>
-                Welcome to IQNaut, where we are dedicated to fostering an
-                environment of academic excellence and personal growth. Our
+                Welcome to Flourish Foundation Academy, where we are dedicated
+                to building a strong foundation of learning and character. Our
                 mission is to empower every student to reach their full
-                potential through a comprehensive and innovative curriculum,
-                dedicated faculty, and state-of-the-art facilities.
+                potential through quality teaching, moral values, and a
+                supportive community that nurtures both academic success and
+                personal growth.
               </p>
               <div className="about__btn">
                 <Link href="/principal-message">

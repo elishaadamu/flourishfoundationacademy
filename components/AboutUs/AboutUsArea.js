@@ -27,52 +27,80 @@ const AboutUsArea = () => {
                 <div className="postbox__content">
                   <div className="postbox__meta">
                     <span>
-                      <i className="far fa-calendar-check"></i> Established: 1950
+                      <i className="far fa-calendar-check"></i> Established:
+                      2013
                     </span>
                     <span>
                       <a href="#">
-                        <i className="far fa-user"></i> Modern Indian School
+                        <i className="far fa-user"></i> Flourish Foundation
+                        Academy
                       </a>
                     </span>
                   </div>
                   <h3 className="postbox__title">
-                    Welcome to Modern Indian School
+                    Welcome to Flourish Foundation Academy
                   </h3>
                   <div className="postbox__text mb-40">
                     <p>
-                      Modern Indian School has been a pioneer in quality education,
-                      nurturing young minds with values and skills to thrive in a
-                      rapidly changing world. Our legacy is built on commitment,
-                      excellence, and innovation.
+                      Out of their passion to give sound education to children
+                      in the community, God inspired Mr. and Mrs. Elias Marcus
+                      to establish Flourish Foundation Academy Zonzon, Zangon
+                      Kataf, Kaduna State Nigeria in the year 2013.
                     </p>
                   </div>
                   {/* Quote Section */}
                   <div className="postbox__quote grey-bg-2 mb-45 p-relative fix">
                     <blockquote>
                       <p>
-                        &quot;Education is the most powerful weapon which you can use to change the world.&quot;
+                        &quot;Education is the most powerful weapon which you
+                        can use to change the world.&quot;
                       </p>
                       <h4>Nelson Mandela</h4>
                     </blockquote>
                   </div>
                   <div className="postbox__text mb-30">
                     <p>
-                      Our mission is to foster a nurturing environment where every student
-                      can achieve their fullest potential—both academically and personally.
-                      We offer a diverse curriculum, modern facilities, and an inspiring
-                      community to prepare our students for the challenges of tomorrow.
+                      The school started on a ground to bridge the educational
+                      gap between the children in the cities and the
+                      disadvantaged in the village.We also thought of a school
+                      where learners will be spiritually grounded. At inception
+                      there were about 17 pupils, 4 teachers and a care giver.
+                      The second and third terms of the session witness
+                      remarkable increase in the number of pupils as it moved to
+                      48.
+                    </p>
+                    <p>
+                      {" "}
+                      From this humble start, the school continue to grow
+                      tremendously; spiritually, academically and socially. The
+                      school is the heart and the hope of the community at the
+                      moment, known for its highest academic and moral
+                      standards. Flourish has is fondly called has participated
+                      in many inter schools academic competitions and is always
+                      outstanding in her performance. The school received awards
+                      of excellence in two different occasions.
+                    </p>
+                    <p>
+                      With all these academic achievements the school is lacking
+                      in infrastructures due to lack of finances, which has turn
+                      out to slow down the teaching and learning process. We
+                      have a dream of raising the standard of the school beyond
+                      the level it is today by the grace of God. The journey of
+                      Flourish Foundation Academy Zonzon Zangon Kataf just
+                      began.
                     </p>
                   </div>
                   {/* Website Link */}
                   <div className="postbox__link mb-35">
                     <p>
-                      To learn more about our programs and campus initiatives, visit our website:{" "}
+                      To learn more about our vision and missions, visit our
+                      website:{" "}
                       <a
-                        href="https://modernindianschool.com"
+                        href="http://flourishfoundationacademy.org"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        modernindianschool.com
+                        flourishfoundationacademy.org
                       </a>
                     </p>
                   </div>
@@ -89,13 +117,13 @@ const AboutUsArea = () => {
                   <div className="postbox__text mb-40">
                     <h3>Excellence in Education</h3>
                     <p>
-                      Our dedicated faculty and state-of-the-art facilities provide a nurturing
-                      environment that encourages academic achievement, personal growth, and
-                      community engagement.
+                      Our dedicated faculty and state-of-the-art facilities
+                      provide a nurturing environment that encourages academic
+                      achievement, personal growth, and community engagement.
                     </p>
                     <p>
-                      Join us in our journey to shape the future with knowledge, creativity, and
-                      passion.
+                      Join us in our journey to shape the future with knowledge,
+                      creativity, and passion.
                     </p>
                   </div>
                   <div className="postbox__line"></div>

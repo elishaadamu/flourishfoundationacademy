@@ -13,31 +13,17 @@ const HeroArea = () => {
   const sliderData = [
     {
       id: 1,
-      title: "Empowering Students for a Brighter Future",
-      img: "/assets/img/slider/slider-1.jpg",
-    },
-    {
-      id: 2,
       title: (
         <>
           Dedicated to <br /> Excellence in Education
         </>
       ),
-      img: "/assets/img/slider/slider-2.jpg",
+      img: "/assets/img/slider/image-1.jpg",
     },
     {
-      id: 3,
-      title: "Nurturing Minds, Shaping Characters",
-      img: "/assets/img/slider/slider-5.jpeg",
-    },
-    {
-      id: 4,
-      title: (
-        <>
-          Building a <br /> Community of Learners
-        </>
-      ),
-      img: "/assets/img/slider/slider-4.jpg",
+      id: 2,
+      title: "Empowering Students for a Brighter Future",
+      img: "/assets/img/slider/image-2.jpg",
     },
   ];
 
@@ -79,11 +65,6 @@ const HeroArea = () => {
                         We believe everyone should have the opportunity to
                         create progress through technology.
                       </p>
-                      <div className="slider__btn">
-                        <Link href="/admission" passHref>
-                          <a className="tp-btn">Book your Seat</a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>

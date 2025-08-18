@@ -45,7 +45,7 @@ const Header = () => {
                   <div className="header__info">
                     <ul>
                       <li>
-                        <a href="mailto:info@educal.com">
+                        <a href="mailto:info@flourishfoundationacademy.org">
                           <svg viewBox="0 0 15 13">
                             <path
                               fillRule="evenodd"
@@ -65,11 +65,11 @@ const Header = () => {
                               fill="#4B535A"
                             />
                           </svg>{" "}
-                          care@iqnaut.com
+                          info@flourishfoundationacademy.org
                         </a>
                       </li>
                       <li>
-                        <Link href="https://maps.app.goo.gl/dF1eDiqTMUgoxWvj9">
+                        <Link href="https://maps.app.goo.gl/U91ASjFKCiUXFgvt6">
                           <a target="_blank" rel="noreferrer">
                             <svg
                               width="12"
@@ -121,10 +121,11 @@ const Header = () => {
                     <Link href="/">
                       <a>
                         <img
-                          src="/assets/img/logo/logo-website.jpg"
+                          src="/assets/img/logo/logo-website.png"
                           width="50px"
                           height="auto"
                           alt="Your School logo"
+                          className="logo-img"
                         />
                       </a>
                     </Link>

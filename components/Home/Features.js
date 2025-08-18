@@ -36,7 +36,7 @@ const Features = () => {
           />
         </svg>
       ),
-      title: "Academic Excellence",
+      title: "Strong Academic Foundation",
     },
     {
       id: 2,
@@ -122,7 +122,7 @@ const Features = () => {
           />
         </svg>
       ),
-      title: "Vibrant Campus Life",
+      title: "Nurturing Community Life",
     },
     {
       id: 3,
@@ -164,7 +164,7 @@ const Features = () => {
           />
         </svg>
       ),
-      title: "World-Class Facilities",
+      title: "Commitment to Values",
     },
   ];
 
@@ -186,7 +186,7 @@ const Features = () => {
                         <a>{feature.title}</a>
                       </Link>
                     </h3>
-                    <Link  href="/about" passHref>
+                    <Link href="/about" passHref>
                       <a className="link-btn pb-10">
                         Learn More <i className="fa-regular fa-arrow-right"></i>
                       </a>

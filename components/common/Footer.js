@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
+  const height = "auto";
   return (
     <>
       <footer>
@@ -17,18 +18,19 @@ const Footer = () => {
             <div className="container">
               <div className="row footer__widgets">
                 {/* Footer Widget 1 */}
-                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7 footer-widget">
+                <div className="col-xxl-6 col-xl-4 col-lg-4 col-md-6 col-sm-7 footer-widget">
                   <div className="footer__widget footer-col-1 mb-50">
                     <div className="footer__logo">
                       <div className="logo">
                         <Link href="/" passHref>
                           <a>
-                            <Image
-                              src="/assets/img/logo/logo-white.png"
+                            <img
+                              src="/assets/img/logo/logo-website.png"
                               alt="Your School logo"
-                              width={150}
-                              height={50}
+                              width="150px"
+                              height="auto"
                               priority
+                              className="logo-imgfooter"
                             />
                           </a>
                         </Link>
@@ -37,8 +39,11 @@ const Footer = () => {
                     <div className="footer__widget-content">
                       <div className="footer__widget-info">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          Nunc maximus, nulla ut commodo sagittis.
+                          Flourish Foundation Academy is committed to nurturing
+                          both academic excellence and character. We provide a
+                          supportive environment where students grow in
+                          knowledge, values, and confidence to reach their full
+                          potential.
                         </p>
                         {/* This social block is visible on desktop only */}
                         <div className="footer__social">
@@ -71,62 +76,32 @@ const Footer = () => {
                     <h3 className="footer__widget-title">Explore</h3>
                     <div className="footer__widget-content">
                       <ul>
-                        <li>
+                        {/* <li>
                           <a href="#">About us</a>
                         </li>
                         <li>
                           <a href="#">Success story</a>
-                        </li>
+                        </li> */}
+                        {/* <li>
+                            <a href="/about">Courses</a>
+                          </li> */}
                         <li>
-                          <a href="#">Courses</a>
+                          <a href="/about">About us</a>
                         </li>
-                        <li>
-                          <a href="#">About us</a>
-                        </li>
-                        <li>
+                        {/* <li>
                           <a href="#">Instructor</a>
                         </li>
                         <li>
                           <a href="#">Events</a>
-                        </li>
+                        </li> */}
                         <li>
-                          <a href="#">Contact us</a>
+                          <a href="/contact">Contact us</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                {/* Footer Widget 3 */}
-                <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-5 footer-widget">
-                  <div className="footer__widget mb-50">
-                    <h3 className="footer__widget-title">Links</h3>
-                    <div className="footer__widget-content">
-                      <ul>
-                        <li>
-                          <a href="#">News & Blogs</a>
-                        </li>
-                        <li>
-                          <a href="#">Library</a>
-                        </li>
-                        <li>
-                          <a href="#">Gallery</a>
-                        </li>
-                        <li>
-                          <a href="#">Terms of service</a>
-                        </li>
-                        <li>
-                          <a href="#">Membership</a>
-                        </li>
-                        <li>
-                          <a href="#">Career</a>
-                        </li>
-                        <li>
-                          <a href="#">Partners</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+
                 {/* Footer Widget 4 */}
                 <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7 footer-widget">
                   <div className="footer__widget footer-col-4 mb-50">
@@ -179,7 +154,10 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-xxl-12">
                     <div className="footer__copyright text-center">
-                      <p>© 2024 IQNaut. All Rights Reserved</p>
+                      <p>
+                        © {new Date().getFullYear()} Flourish Foundation
+                        Academy. All Rights Reserved
+                      </p>
                     </div>
                   </div>
                 </div>

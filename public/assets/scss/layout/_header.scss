@@ -190,21 +190,7 @@
       }
     }
   }
-  &__sticky {
-    &.header__sticky {
-      position: fixed !important;
-      left: 0;
-      margin: auto;
-      top: 0;
-      width: 100%;
-      box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
-      z-index: 99;
-      -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-      animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-      -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-      background: var(--tp-common-white);
-    }
-  }
+
   &__call {
     &-icon {
     }

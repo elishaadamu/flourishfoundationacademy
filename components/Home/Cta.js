@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unknown-property */
-import Link from 'next/link';
+import Link from "next/link";
 
 const Cta = () => {
   return (
@@ -31,12 +31,12 @@ const Cta = () => {
                     </span>
                   </div>
                   <div className="cta__content">
-                    <h3 className="cta__title">Join Our Faculty</h3>
+                    <h3 className="cta__title">Join Our Community</h3>
                     <p>
-                      Inspire young minds and shape the future by becoming a part
-                      of our esteemed teaching faculty.
+                      Inspire young minds and shape the future by becoming a
+                      part of our esteemed teaching faculty.
                     </p>
-                    <Link href="/teachers-training" passHref>
+                    <Link href="/contact" passHref>
                       <a className="tp-btn tp-btn-3">Join Us</a>
                     </Link>
                   </div>
@@ -65,13 +65,13 @@ const Cta = () => {
                     </span>
                   </div>
                   <div className="cta__content">
-                    <h3 className="cta__title">Apply for Admission</h3>
+                    <h3 className="cta__title">Become a Volunteer</h3>
                     <p>
-                      Join one of the leading schools with world-class education and
-                      exceptional learning facilities.
+                      Join us in shaping young lives by sharing your time,
+                      skills, and passion to support our students and community.
                     </p>
-                    <Link href="/admission" passHref>
-                      <a className="tp-btn tp-btn-4">Apply Now</a>
+                    <Link href="/contact" passHref>
+                      <a className="tp-btn tp-btn-4">Volunteer Now</a>
                     </Link>
                   </div>
                 </div>
