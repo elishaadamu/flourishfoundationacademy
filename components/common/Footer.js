@@ -86,7 +86,7 @@ const Footer = () => {
                             <a href="/about">Courses</a>
                           </li> */}
                         <li>
-                          <a href="/about">About us</a>
+                          <Link href="/about">About us</Link>
                         </li>
                         {/* <li>
                           <a href="#">Instructor</a>
@@ -95,7 +95,7 @@ const Footer = () => {
                           <a href="#">Events</a>
                         </li> */}
                         <li>
-                          <a href="/contact">Contact us</a>
+                          <Link href="/contact">Contact us</Link>
                         </li>
                       </ul>
                     </div>
