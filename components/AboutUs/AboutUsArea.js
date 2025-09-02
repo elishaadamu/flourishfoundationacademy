@@ -16,7 +16,7 @@ const AboutUsArea = () => {
                 {/* Header Image */}
                 <div className="postbox__thumb m-img">
                   <Image
-                    src="/assets/img/campus1/campus-2.jpg"
+                    src="/assets/img/campus1/2.jpg"
                     width={800}
                     height={450}
                     layout="responsive"
@@ -107,7 +107,7 @@ const AboutUsArea = () => {
                   {/* Additional Image */}
                   <div className="postbox__img w-img mb-45">
                     <Image
-                      src="/assets/img/campus1/campus-1.jpg"
+                      src="/assets/img/campus1/3.jpg"
                       width={800}
                       height={450}
                       layout="responsive"

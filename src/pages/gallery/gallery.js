@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import 'react-image-lightbox/style.css';
+import "react-image-lightbox/style.css";
 
 // Dynamically load react-image-lightbox to ensure Next.js compatibility (client-side only)
 const Lightbox = dynamic(() => import("react-image-lightbox"), { ssr: false });
@@ -10,12 +10,32 @@ const Lightbox = dynamic(() => import("react-image-lightbox"), { ssr: false });
 export default function Gallery() {
   // Base images that will be repeated to form a 5x5 grid (25 images)
   const baseImages = [
-    { src: "/assets/img/gallery/gallery-img01.jpg", alt: "Gallery Image 1" },
-    { src: "/assets/img/gallery/gallery-img02.jpg", alt: "Gallery Image 2" },
-    { src: "/assets/img/gallery/gallery-img03.jpg", alt: "Gallery Image 3" },
-    { src: "/assets/img/gallery/gallery-img04.jpg", alt: "Gallery Image 4" },
-    { src: "/assets/img/gallery/gallery-img05.jpg", alt: "Gallery Image 5" },
-    { src: "/assets/img/gallery/gallery-img06.jpg", alt: "Gallery Image 6" },
+    { src: "/assets/img/gallery/1.jpg", alt: "Gallery Image 1" },
+    { src: "/assets/img/gallery/2.jpg", alt: "Gallery Image 2" },
+    { src: "/assets/img/gallery/3.jpg", alt: "Gallery Image 3" },
+    { src: "/assets/img/gallery/4.jpg", alt: "Gallery Image 4" },
+    { src: "/assets/img/gallery/5.jpg", alt: "Gallery Image 5" },
+    { src: "/assets/img/gallery/6.jpg", alt: "Gallery Image 6" },
+    { src: "/assets/img/gallery/7.jpg", alt: "Gallery Image 7" },
+    { src: "/assets/img/gallery/8.jpg", alt: "Gallery Image 8" },
+    { src: "/assets/img/gallery/9.jpg", alt: "Gallery Image 9" },
+    { src: "/assets/img/gallery/10.jpg", alt: "Gallery Image 10" },
+    { src: "/assets/img/gallery/11.jpg", alt: "Gallery Image 11" },
+    { src: "/assets/img/gallery/12.jpg", alt: "Gallery Image 12" },
+    { src: "/assets/img/gallery/13.jpg", alt: "Gallery Image 13" },
+    { src: "/assets/img/gallery/14.jpg", alt: "Gallery Image 14" },
+    { src: "/assets/img/gallery/15.jpg", alt: "Gallery Image 15" },
+    { src: "/assets/img/gallery/16.jpg", alt: "Gallery Image 16" },
+    { src: "/assets/img/gallery/17.jpg", alt: "Gallery Image 17" },
+    { src: "/assets/img/gallery/18.jpg", alt: "Gallery Image 18" },
+    { src: "/assets/img/gallery/19.jpg", alt: "Gallery Image 19" },
+    { src: "/assets/img/gallery/20.jpg", alt: "Gallery Image 20" },
+    { src: "/assets/img/gallery/21.jpg", alt: "Gallery Image 21" },
+    { src: "/assets/img/gallery/22.jpg", alt: "Gallery Image 22" },
+    { src: "/assets/img/gallery/23.jpg", alt: "Gallery Image 23" },
+    { src: "/assets/img/gallery/24.jpg", alt: "Gallery Image 24" },
+    { src: "/assets/img/gallery/25.jpg", alt: "Gallery Image 25" },
+    { src: "/assets/img/gallery/26.jpg", alt: "Gallery Image 26" },
   ];
 
   // Create an array of 25 images using modulo repetition of the base images
@@ -41,8 +61,8 @@ export default function Gallery() {
         <div className="section-title text-center">
           <h2>Our School Gallery</h2>
           <p>
-            Browse through our extensive collection of school images and get a glimpse
-            of our vibrant campus life.
+            Browse through our extensive collection of school images and get a
+            glimpse of what makes our school special.
           </p>
         </div>
 
@@ -79,7 +99,9 @@ export default function Gallery() {
           }
           onCloseRequest={() => setIsOpen(false)}
           onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + galleryImages.length - 1) % galleryImages.length)
+            setPhotoIndex(
+              (photoIndex + galleryImages.length - 1) % galleryImages.length
+            )
           }
           onMoveNextRequest={() =>
             setPhotoIndex((photoIndex + 1) % galleryImages.length)

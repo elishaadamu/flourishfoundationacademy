@@ -45,21 +45,18 @@ const Sidebar = ({ show, handleClose }) => {
             <div className="offcanvas__logo logo">
               <Link href="/" passHref>
                 <a>
-                  <Image
-                    src="/assets/img/logo/logo.png"
-                    width={150}
-                    height={50}
-                    alt="logo"
-                    priority
+                  <img
+                    src="/assets/img/logo/logo-website.png"
+                    width="50px"
+                    height="auto"
+                    alt="Your School logo"
+                    className="logo-img"
                   />
                 </a>
               </Link>
             </div>
             <div className="offcanvas__close">
-              <button
-                className="offcanvas__close-btn"
-                onClick={handleClose}
-              >
+              <button className="offcanvas__close-btn" onClick={handleClose}>
                 <i className="fal fa-times"></i>
               </button>
             </div>
@@ -159,51 +156,23 @@ const Sidebar = ({ show, handleClose }) => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.google.com/maps"
+                      href="https://maps.app.goo.gl/U91ASjFKCiUXFgvt6"
                     >
-                      12/A, Mirnada Nagpur City, MH
+                      Zonzon, Zango Kataf
                     </a>
                   </div>
                 </li>
-                <li className="d-flex align-items-center">
-                  <div className="offcanvas__contact-icon mr-15">
-                    <i className="far fa-phone"></i>
-                  </div>
-                  <div className="offcanvas__contact-text">
-                    <a href="mailto:support@gmail.com">093898734</a>
-                  </div>
-                </li>
+
                 <li className="d-flex align-items-center">
                   <div className="offcanvas__contact-icon mr-15">
                     <i className="fal fa-envelope"></i>
                   </div>
                   <div className="offcanvas__contact-text">
-                    <a href="tel:+012-345-6789">care@iqnaut.com</a>
+                    <a href="tel:+012-345-6789">
+                      {" "}
+                      info@flourishfoundationacademy.org
+                    </a>
                   </div>
-                </li>
-              </ul>
-            </div>
-            <div className="offcanvas__social">
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
                 </li>
               </ul>
             </div>

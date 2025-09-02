@@ -17,7 +17,7 @@ const AboutArea = ({
             <div className="about__thumb-wrapper p-relative text-center">
               <div className="about__thumb">
                 <Image
-                  src={principalImage || "/assets/img/about/1.jpg"}
+                  src={principalImage || "/assets/img/about/10.jpg"}
                   alt={principalName || "Principal"}
                   width={400}
                   height={300}
@@ -46,7 +46,7 @@ const AboutArea = ({
                 personal growth.
               </p>
               <div className="about__btn">
-                <Link href="/principal-message">
+                <Link href="/about" passHref>
                   <a className="tp-btn tp-btn-2">Read more</a>
                 </Link>
               </div>

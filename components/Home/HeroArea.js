@@ -23,7 +23,17 @@ const HeroArea = () => {
     {
       id: 2,
       title: "Empowering Students for a Brighter Future",
-      img: "/assets/img/slider/image-2.jpg",
+      img: "/assets/img/slider/5.jpg",
+    },
+    {
+      id: 3,
+      title: "Using Skills to Enhance Learning",
+      img: "/assets/img/slider/14.jpg",
+    },
+    {
+      id: 4,
+      title: "Producing Future Leaders",
+      img: "/assets/img/slider/11.jpg",
     },
   ];
 
