@@ -69,7 +69,7 @@ const CounterArea = () => {
                 </svg>
               }
               number={17}
-              subtitle="National toppers ICSE"
+              subtitle="Foreign Students"
             />
 
             <SingleCounter
@@ -146,7 +146,7 @@ const CounterArea = () => {
                 </svg>
               }
               number={26}
-              subtitle="National toppers ISC"
+              subtitle="Offline Students"
             />
 
             <SingleCounter
@@ -198,7 +198,7 @@ const CounterArea = () => {
                 </svg>
               }
               number={90}
-              subtitle="Merit list with 90% marks for ISC"
+              subtitle="Online Students"
             />
 
             <SingleCounter
@@ -254,7 +254,7 @@ const CounterArea = () => {
                 </svg>
               }
               number={92}
-              subtitle="Merit list with 90% marks and above for ICSE"
+              subtitle="Lifetime Access"
               border="border-0"
             />
           </div>

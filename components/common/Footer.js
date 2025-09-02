@@ -59,11 +59,6 @@ const Footer = () => {
                                 <i className="fa-brands fa-twitter"></i>
                               </a>
                             </li>
-                            <li>
-                              <a href="#" className="pin">
-                                <i className="fa-brands fa-pinterest-p"></i>
-                              </a>
-                            </li>
                           </ul>
                         </div>
                       </div>
@@ -97,6 +92,9 @@ const Footer = () => {
                         <li>
                           <Link href="/contact">Contact us</Link>
                         </li>
+                        <li>
+                          <Link href="/gallery">Gallery</Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -124,25 +122,6 @@ const Footer = () => {
                 </div>
               </div>
               {/* Mobile-only social icons block */}
-              <div className="footer__social-mobile">
-                <ul>
-                  <li>
-                    <Link href="#" className="fb">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="tw">
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <a href="#" className="pin">
-                      <i className="fa-brands fa-pinterest-p"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
           <div
