@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unknown-property */
 import Link from "next/link";
-import Image from "next/image";
 
-const Footer = () => {
-  const height = "auto";
+const ContactFooter = () => {
+  // The height variable was not used, so I've removed it.
+  // const height = "auto";
   return (
     <>
       <footer>
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="container">
               <div className="row footer__widgets">
                 {/* Footer Widget 1 */}
-                <div className="col-xxl-6 col-xl-4 col-lg-4 col-md-6 col-sm-7 footer-widget">
+                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-7 footer-widget">
                   <div className="footer__widget footer-col-1 mb-50">
                     <div className="footer__logo">
                       <div className="logo">
@@ -50,13 +50,19 @@ const Footer = () => {
                           <h4>Follow Us</h4>
                           <ul>
                             <li>
-                              <a href="#" className="fb">
+                              <a
+                                href="https://web.facebook.com/flourish.foundation.academy.2"
+                                className="fb"
+                              >
                                 <i className="fa-brands fa-facebook-f"></i>
                               </a>
                             </li>
                             <li>
-                              <a href="#" className="tw">
-                                <i className="fa-brands fa-twitter"></i>
+                              <a
+                                href="https://www.instagram.com/flourishfoundationacademy/"
+                                className="tw"
+                              >
+                                <i className="fa-brands fa-instagram"></i>
                               </a>
                             </li>
                           </ul>
@@ -101,7 +107,7 @@ const Footer = () => {
                 </div>
 
                 {/* Footer Widget 4 */}
-                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7 footer-widget">
+                <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-7 footer-widget">
                   <div className="footer__widget footer-col-4 mb-50">
                     <h3 className="footer__widget-title">Newsletter</h3>
                     <div className="footer__subscribe">
@@ -122,6 +128,29 @@ const Footer = () => {
                 </div>
               </div>
               {/* Mobile-only social icons block */}
+              <div className="row footer__social-mobile">
+                <div className="col-12">
+                  <h4>Follow Us</h4>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://web.facebook.com/flourish.foundation.academy.2"
+                        className="fb"
+                      >
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/flourishfoundationacademy/"
+                        className="tw"
+                      >
+                        <i className="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div
@@ -154,11 +183,11 @@ const Footer = () => {
           display: none;
         }
         /* Mobile view adjustments */
-        @media only screen and (max-width: 580px) {
-          /* Stack the footer widgets in a grid (2 columns) */
+        @media only screen and (max-width: 768px) {
+          /* Stack the footer widgets in a single column */
           .footer__widgets {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             gap: 15px;
           }
           .footer-widget {
@@ -223,4 +252,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default ContactFooter;
